@@ -36,6 +36,8 @@ npm run lint
 опубликует его через GitHub Pages. В настройках репозитория в разделе
 **Settings → Pages** должен быть выбран источник **GitHub Actions**.
 
+Опубликованное демо: <https://ya-yura.github.io/smart-climat-krasnodar/>.
+
 Workflow использует production-сборку vinext, формирует `dist-pages` и
 загружает его как артефакт Pages. Проект не использует сервер, базу данных или секреты, поэтому
 демо работает как автономная статическая страница.
